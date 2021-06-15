@@ -1,9 +1,8 @@
 
 
-  function Scooter(year, color,model) {
-    this.year= year;
-    this.color =color;
-    this.model = model;
+  function Scooter(homeState, training) {
+    this.homeState= homeState;
+    this.training =training;
     this.sayHello = function() {
       console.log(`${this.year},${this.color},${this.model}`);
     };
